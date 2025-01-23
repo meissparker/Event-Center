@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: indianred;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+    text-decoration: underline
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: left;
+    background-color: lightgray;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline
+}
+
+.body {
+    background-color: oldlace;
+    color:lightslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px
+}
+
+.office_hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px
+
+}
+
+table {
+    color: black;
+}
+
+.words {
+    color: black;
+    font-size: 40px;
+}
+
+.ticket_title {
+    color: black;
+    font-size: 50px;
+}
+
+td {
+    padding: 20px
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .container{ 
+        margin: 10px 0;
+    }
+
+    img {
+        height: 25vh;
+        width: 50vh;
+    }
+}
