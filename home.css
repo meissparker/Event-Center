@@ -74,6 +74,13 @@ section {
     font-size: 30px
 }
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
 
 
 
