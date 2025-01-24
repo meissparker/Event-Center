@@ -4,6 +4,8 @@ nav {
     align-items: flex-end;
     background-color: indianred;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
 }
 
 nav .logo {
@@ -71,13 +73,22 @@ table {
     font-size: 40px;
 }
 
-.ticket_title {
+.title {
     color: black;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 td {
     padding: 20px
+}
+
+li:hover {
+    background-color: white;
+}
+
+li:active {
+    background-color:brown
 }
 
 @media screen and (max-width: 768px) {
@@ -92,6 +103,7 @@ td {
 
     .container{ 
         margin: 10px 0;
+        padding-top: 60%;
     }
 
     img {

@@ -4,6 +4,8 @@ nav {
     align-items: flex-end;
     background-color: indianred;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%
 }
 
 nav .logo {
@@ -91,6 +93,14 @@ section {
     color: black
 }
 
+li:hover {
+    background-color: white;
+}
+
+li:active {
+    background-color:brown
+}
+
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -99,5 +109,9 @@ section {
 
     nav ul li {
         margin: 10px 0;
+    }
+
+    .basketball {
+        padding-top: 70%;
     }
 }
